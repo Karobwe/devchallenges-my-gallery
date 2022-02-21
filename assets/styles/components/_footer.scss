@@ -1,0 +1,20 @@
+@import "../utils";
+
+footer {
+  margin-bottom: 24px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: $grey3;
+
+  a,
+  a:visited {
+    color: inherit;
+  }
+
+  a:nth-child(2) {
+    text-decoration: none;
+  }
+}
